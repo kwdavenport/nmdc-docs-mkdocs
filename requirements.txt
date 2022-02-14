@@ -1,2 +1,2 @@
-mkdocs-awesome-pages
+mkdocs-awesome-pages-plugin
 mkdocs-redirects
