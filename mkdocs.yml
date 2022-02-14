@@ -11,15 +11,15 @@ theme:
     features:
         - navigation.instant
 
-nav:
-    - Overview: overview/0_overview.md
-    - Home: standards/home.md
-    - NMDC Schema: standards/index.md
-    - NMDC Metadata Standards Documentation:  standards/Metadata_Documentation_Overview.md 
-    - NMDC Schema Validation: standards/schema-validation.md
-    - Identifiers in NMDC: standards/identifiers.md
-    - MIxS Soil Package: standards/NMDC_MIxS_Soil_documentation.md
-    - Credits: standards/credits.md   
+# nav:
+#     - Overview: overview/0_overview.md
+#     - Home: standards/home.md
+#     - NMDC Schema: standards/index.md
+#     - NMDC Metadata Standards Documentation:  standards/Metadata_Documentation_Overview.md 
+#     - NMDC Schema Validation: standards/schema-validation.md
+#     - Identifiers in NMDC: standards/identifiers.md
+#     - MIxS Soil Package: standards/NMDC_MIxS_Soil_documentation.md
+#     - Credits: standards/credits.md   
     
 markdown_extensions:
     - admonition
@@ -31,7 +31,7 @@ extra_css:
 
 plugins:
     - search
-    #- awesome-pages
+    - awesome-pages
     - redirects:
         redirect_maps:
             index.md: overview/0_overview.md
