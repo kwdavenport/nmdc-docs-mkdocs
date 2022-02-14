@@ -1,0 +1,28 @@
+site_name: NMDC Documentation
+site_url: https://microbiomedata.org/
+site_description: NMDC Documentation.
+site_author: The NMDC Team
+
+repo_url: https://github.com/microbiomedata/NMDC_documentation
+edit_uri: ""
+
+theme:
+    name: readthedocs
+    features:
+        - navigation.instant
+
+    
+markdown_extensions:
+    - admonition
+    - attr_list
+    - def_list
+    
+extra_css:
+    - css/extra.css
+
+plugins:
+    - search
+    - awesome-pages
+    - redirects:
+        redirect_maps:
+            index.md: overview/0_overview.md
